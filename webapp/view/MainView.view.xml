@@ -1,0 +1,32 @@
+ <mvc:View controllerName="com.apptech.signature.controller.MainView"
+  displayBlock="true"
+  xmlns="sap.m"
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns:html="http://www.w3.org/1999/xhtml">
+  <App id="idAppControl" >
+    <pages>
+      <Page title="SIGNATURE PROTOTYPE">
+        <content> 
+     
+           <html:iframe id="my_iframe" src="/sig/index.html" width="50%" height="50%"></html:iframe> 
+            <Textarea id="myData"
+            width = "50%"
+            height = "50%"
+            MaxLength="true"
+            />
+           <Button
+          icon="sap-icon://notes"
+          text="OPEN SIGNATURE"
+          press="onMyFucntion"
+           />
+
+             <Button
+          icon="sap-icon://notes"
+          text="GET BASE64 IMAGE"
+          press="onGetFunction"
+           />
+        </content>
+      </Page>
+    </pages>
+  </App>
+</mvc:View>

@@ -1,0 +1,11 @@
+{
+  "generator-easy-ui5": {
+    "projectname": "signature",
+    "namespace": "com.apptech",
+    "platform": "Static webserver",
+    "viewtype": "XML",
+    "viewname": "MainView",
+    "ui5libs": "Local resources (OpenUI5)",
+    "newdir": true
+  }
+}
